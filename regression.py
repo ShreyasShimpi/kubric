@@ -3,6 +3,7 @@ import pandas
 import scipy
 import numpy
 import sys
+from sklearn.linear_model import LinearRegression
 
 
 TRAIN_DATA_URL = "https://storage.googleapis.com/kubric-hiring/linreg_train.csv"
@@ -17,7 +18,11 @@ def predict_price(area) -> float:
     """
     response = requests.get(TRAIN_DATA_URL)
     # YOUR IMPLEMENTATION HERE
-    ...
+    
+    model = LinearRegession()
+    model.fit(response
+    
+    return 
 
 
 if __name__ == "__main__":
